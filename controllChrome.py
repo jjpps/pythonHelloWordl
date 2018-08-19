@@ -1,10 +1,10 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+import unittest
 import selenium
-
+from selenium import webdriver
 #using chrome
 
-drive = webdriver.Chrome(executable_path="/usr/local/bin/Chromedriver")
+#drive = webdriver.Chrome()
+drive = webdriver.Chrome(r"C:\Users\Usuario\Documents\Projedos Git\python\pythonHelloWordl\chromedriver.exe")
 
-driver.get('https://gooogle.com.br')
+drive.get("https://www.maededeus.com.br")
 
