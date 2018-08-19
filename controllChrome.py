@@ -6,5 +6,5 @@ from selenium import webdriver
 #drive = webdriver.Chrome()
 drive = webdriver.Chrome(r"C:\Users\Usuario\Documents\Projedos Git\python\pythonHelloWordl\chromedriver.exe")
 
-drive.get("https://www.maededeus.com.br")
+drive.get("https://www.facebook.com.br")
 
